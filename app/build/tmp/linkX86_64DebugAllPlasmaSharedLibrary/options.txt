@@ -1,0 +1,15 @@
+-shared
+-Wl,-soname,libplasma.so
+-o
+C:\\Users\\Rohit\\AndroidStudioProjects\\BitmapPlasma\\app\\build\\intermediates\\binaries\\debug\\all\\obj\\x86_64\\libplasma.so
+C:\\Users\\Rohit\\AndroidStudioProjects\\BitmapPlasma\\app\\build\\intermediates\\objectFiles\\x86_64DebugAllPlasmaSharedLibrary\\plasmaMainC\\a0akmk55fxuj8gmxnu5lj0v7l\\plasma.o
+-Wl,--no-undefined
+-Wl,-z,noexecstack
+-Wl,-z,relro
+-Wl,-z,now
+--sysroot=C:\\Users\\Rohit\\Downloads\\ndk/platforms/android-21/arch-x86_64
+-Wl,--build-id
+-no-canonical-prefixes
+-lm
+-llog
+-ljnigraphics
